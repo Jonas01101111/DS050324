@@ -24,21 +24,30 @@ namespace EstruturaDecisao
             if (op == "+")
             {
                 res = n1 + n2;
+                Console.WriteLine("resultado:" + res);
             }
             else if (op == "-")
             {
                 res = n1- n2;
+                Console.WriteLine("resultado:" + res);
             }
             else if (op == "*")
             {
                 res = n1* n2;
+                Console.WriteLine("resultado:" + res);
             }
-            else 
+            else if (op == "/")
             {
                 res = n1 / n2;
+                Console.WriteLine("resultado:" + res);
             }
 
-            Console.WriteLine("resultado:" + res);
+            else 
+            {
+                Console.WriteLine();
+            }
+
+            
             Console.ReadKey();
         }
     }
